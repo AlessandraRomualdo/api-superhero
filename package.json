@@ -1,0 +1,17 @@
+{
+  "name": "api-super-herois",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert2": "^11.7.3",
+    "vite": "^4.2.0"
+  }
+}
