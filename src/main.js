@@ -23,7 +23,8 @@ button.addEventListener('click', async (event) => {
     console.log(data)
     name.innerHTML = `Nome: ${data.name}`;
     card.src = data.image.url;
-    // publisher.innerHTML = `${data.bography.publisher}`
+    publisher.innerHTML = `Editora: ${data.biography.publisher}`;
+    alterEgos.innerHTML = `Power: ${data.powerstats.power}`;
   }).catch((error) => Swal.fire({
     title: 'Error!',
     text: 'Heroi não encontrado, id invalido!',
